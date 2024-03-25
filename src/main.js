@@ -2,8 +2,8 @@
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 import "izitoast/dist/css/iziToast.min.css";
-import { fetchImages } from "./pixabay-api.js";
-import { showLoadingIndicator, hideLoadingIndicator, renderImages } from "./render-functions.js";
+import { fetchImages } from "./js./pixabay-api.js";
+import { showLoadingIndicator, hideLoadingIndicator, renderImages } from "./js./render-functions.js";
 
 const searchForm = document.querySelector('#search-form');
 
